@@ -22,7 +22,7 @@ const OPTIONS_OVERRIDE: ts.CompilerOptions = {
   declarationMap: false,
   skipLibCheck: true,
   // Ensure TS2742 errors are visible
-  preserveSymlinks: true,
+  // preserveSymlinks: true,
   // Ensure we can parse the latest code
   target: ts.ScriptTarget.ESNext,
 };
